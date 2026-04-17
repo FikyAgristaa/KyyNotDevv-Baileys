@@ -88,7 +88,7 @@ await sock.sendMessage(jid, {
             degreesLongitude: 0, 
             name: "rowrrrr" 
         }, 
-        joinLink: "https://call.whatsapp.com/video/yumevtc", 
+        joinLink: "https://call.whatsapp.com/video/KyyNotDevv", 
         startTime: "1763019000", 
         endTime: "1763026200", 
         extraGuestsAllowed: false 
@@ -125,7 +125,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @yumevtc ",
+        footer: "telegram: @KyyNotDevv ",
         buttons: [
             {
                 name: "cta_copy",
@@ -148,13 +148,13 @@ await sock.sendMessage(jid, {
     interactiveMessage: {      
         header: "Hello World",
         title: "Hello World",      
-        footer: "telegram: @yumevtc",      
+        footer: "telegram: @KyyNotDevv",      
         image: { url: "https://example.com/image.jpg" },      
         nativeFlowMessage: {        
             messageParamsJson: JSON.stringify({          
                 limited_time_offer: {            
                     text: "idk hummmm?",            
-                    url: "https://t.me/yumevtc",            
+                    url: "https://t.me/KyyNotDevv",            
                     copy_code: "yume",            
                     expiration_time: Date.now() * 999          
                 },          
@@ -167,7 +167,7 @@ await sock.sendMessage(jid, {
                 tap_target_configuration: {            
                     title: " X ",            
                     description: "bomboclard",            
-                    canonical_url: "https://t.me/yumevtc",            
+                    canonical_url: "https://t.me/KyyNotDevv",            
                     domain: "shop.example.com",            
                     button_index: 0          
                 }        
@@ -195,7 +195,7 @@ await sock.sendMessage(jid, {
                                 highlight_label: "label",                  
                                 rows: [                    
                                     {                      
-                                        title: "@yumevtc",                      
+                                        title: "@KyyNotDevv",                      
                                         description: "love you",                      
                                         id: "row_2"                    
                                     }                  
@@ -227,7 +227,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @yumevtc",
+        footer: "telegram: @KyyNotDevv",
         image: { url: "https://example.com/image.jpg" },
         buttons: [
             {
@@ -280,10 +280,10 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @yumevtc",
+        footer: "telegram: @KyyNotDevv",
         document: fs.readFileSync("./package.json"),
         mimetype: "application/pdf",
-        fileName: "yumevtc.pdf",
+        fileName: "KyyNotDevv.pdf",
         jpegThumbnail: fs.readFileSync("./document.jpeg"),
         contextInfo: {
             mentionedJid: [jid],
@@ -296,7 +296,7 @@ await sock.sendMessage(jid, {
             mediaType: 3,
             thumbnailUrl: "https://example.com/image.jpg",
             mediaUrl: " X ",
-            sourceUrl: "https://t.me/yumevtc",
+            sourceUrl: "https://t.me/KyyNotDevv",
             showAdAttribution: true,
             renderLargerThumbnail: false         
         },
@@ -305,8 +305,8 @@ await sock.sendMessage(jid, {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                     display_text: "Telegram",
-                    url: "https://t.me/yumevtc",
-                    merchant_url: "https://t.me/yumevtc"
+                    url: "https://t.me/KyyNotDevv",
+                    merchant_url: "https://t.me/KyyNotDevv"
                 })
             }
         ]
@@ -322,18 +322,18 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @yumevtc",
+        footer: "telegram: @KyyNotDevv",
         document: fs.readFileSync("./package.json"),
         mimetype: "application/pdf",
-        fileName: "yumevtc.pdf",
+        fileName: "KyyNotDevv.pdf",
         jpegThumbnail: fs.readFileSync("./document.jpeg"),
         buttons: [
             {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                     display_text: "Telegram",
-                    url: "https://t.me/yumevtc",
-                    merchant_url: "https://t.me/yumevtc"
+                    url: "https://t.me/KyyNotDevv",
+                    merchant_url: "https://t.me/KyyNotDevv"
                 })
             }
         ]
